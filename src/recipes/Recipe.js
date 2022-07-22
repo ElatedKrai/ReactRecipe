@@ -2,38 +2,33 @@ import React from "react";
 import '../recipes/styleRecipe.css'
 
 
-// function MassiveIngredints()
-// {
-// ingredientLines.pop("");
-// for (let i = 0; i < ingredientLines.lenght; i++)
-// {
-//    // if()
-//    (ingredientLines)
-      
-// }
-// }
+
   
 
 
-const Recipe = ({title, calories, image, ingredientLines}) => //встановлюємо пропси, або поля, які ми будемо вставляти в функцію.
+const Recipe = ({title, calories, image, ingredientLines, type}) => //встановлюємо пропси, або поля, які ми будемо вставляти в функцію.
 {
    return (
       <div className="container">
          <div className="container_Recipe_info">
-               <div className="Recipe">
+            <div className="Recipe">
+               <div className="Recipe_image">
                   <img src={image} alt=""></img> 
-                  <div className="Recipe_info">
-                  <h1>{title}</h1>
-               
-                  <div className="ingredients">
-                  {/* <ul>{ingredients.map(ingredient => (<li>{ingredient.text}</li>))}</ul> */}
-                     <p>
-                        {
-                              
-                        }
-                     </p>
+               </div>
+               <div className="Recipe_info">
+                  <div className="Recipe_title">
+                     <h1>{title}</h1>
                   </div>
-                  <div className="calories_info">
+                  <div className="Recipe_type">
+                     <h3> <a href="">{type} </a></h3>
+                  </div>
+                  <div className="Recipe_button">
+                     <button> Show ingredients ↓</button>
+                  </div>
+                  <div className="Recipe_ingredients">
+                     <p>{ingredientLines.join(", ")}</p>
+                  </div>
+                  <div className="Recipe_calories">
                      <p> Calories = {calories}</p>
                   </div>
                </div>

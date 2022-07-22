@@ -2,8 +2,8 @@
 
 
 .App{background-color: rgb(240, 240, 240);}
-.search-form {display: flex; justify-content: center; align-items: center; min-height: 10vh; }
-.search-bar{width: 50%; border: none; padding: 10px; font-size: 14px;}
+.search-form {display: flex; justify-content: center; align-items: center; min-height: 10vh;}
+.search-bar{width: 50%; border: none; padding: 10px; font-size: 14px; border-radius: 7px;}
 
-.search-button{background-color:darkblue; border: inherit; padding: 10px 20px; color: white; font-size: 14px;}
+.search-button{background-color:black; border: inherit; padding: 10px 20px; color: white; font-size: 14px; margin-left: 20px; border-radius: 7px;}
 
