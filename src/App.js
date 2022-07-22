@@ -40,7 +40,7 @@ function App() {
       </form>
       <div className="Recipe_info">
       {recipes.map(recipe => (
-        <Recipe key={recipe.recipe.label} title={recipe.recipe.label} calories={recipe.recipe.calories} image={recipe.recipe.image} ingredientLines = {recipe.recipe.ingredientLines} />
+        <Recipe key={recipe.recipe.label} title={recipe.recipe.label} calories={recipe.recipe.calories} image={recipe.recipe.image} ingredientLines={recipe.recipe.ingredientLines} type={recipe.recipe.dishType} />
         // витягуючи з джейсона, ми можемо взяти ту інформацію, яку нам потрібно. це як взяти з класу конкретне поле.
       ))}  {/* меп - функция с джава, который выводит элемент реакт */}
       </div>
