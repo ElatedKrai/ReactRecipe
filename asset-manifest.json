@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.6fe7fc5c.css",
-    "main.js": "/static/js/main.3c2c046f.js",
-    "static/js/787.a2d3872a.chunk.js": "/static/js/787.a2d3872a.chunk.js",
-    "static/media/logo2.jpg": "/static/media/logo2.cbad05f7396190d5cb17.jpg",
-    "static/media/logo.jpeg": "/static/media/logo.b0bf9a5dcd580c317779.jpeg",
-    "index.html": "/index.html",
-    "main.6fe7fc5c.css.map": "/static/css/main.6fe7fc5c.css.map",
-    "main.3c2c046f.js.map": "/static/js/main.3c2c046f.js.map",
-    "787.a2d3872a.chunk.js.map": "/static/js/787.a2d3872a.chunk.js.map"
+    "main.css": "/ElatedKrai/ReactRecipe/static/css/main.6fe7fc5c.css",
+    "main.js": "/ElatedKrai/ReactRecipe/static/js/main.9f76c0aa.js",
+    "static/js/787.a2d3872a.chunk.js": "/ElatedKrai/ReactRecipe/static/js/787.a2d3872a.chunk.js",
+    "static/media/logo2.jpg": "/ElatedKrai/ReactRecipe/static/media/logo2.cbad05f7396190d5cb17.jpg",
+    "static/media/logo.jpeg": "/ElatedKrai/ReactRecipe/static/media/logo.b0bf9a5dcd580c317779.jpeg",
+    "index.html": "/ElatedKrai/ReactRecipe/index.html",
+    "main.6fe7fc5c.css.map": "/ElatedKrai/ReactRecipe/static/css/main.6fe7fc5c.css.map",
+    "main.9f76c0aa.js.map": "/ElatedKrai/ReactRecipe/static/js/main.9f76c0aa.js.map",
+    "787.a2d3872a.chunk.js.map": "/ElatedKrai/ReactRecipe/static/js/787.a2d3872a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6fe7fc5c.css",
-    "static/js/main.3c2c046f.js"
+    "static/js/main.9f76c0aa.js"
   ]
 }
