@@ -1,0 +1,7 @@
+*{margin: 0; padding: 0; }
+/* .App{background-color: rgb(240, 240, 240);} */
+.search-form {display: flex; justify-content: center; align-items: center; min-height: 10vh;}
+.search-bar{min-width: 220px; max-width: 1000px; border: none; padding: 10px; font-size: 14px; border-radius: 7px; background-color:rgb(240, 240, 240);;}
+.search-button{background-color:black; border: inherit; padding: 10px 20px; color: white; font-size: 14px; margin-left: 20px; border-radius: 7px; cursor: pointer; transition: .3s;}
+.logo{text-align: center;}
+.search-button:hover{background-color: rgb(240,240,240); transition: .3s; color: black}

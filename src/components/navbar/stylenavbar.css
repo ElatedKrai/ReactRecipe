@@ -1,0 +1,15 @@
+.navbar{background-color: white; font-family: "Montserrat", sans-serif;}
+
+.navbar_list
+{
+   width: 350px;
+   display: inline-flex;
+   justify-content: space-around;
+   align-items: center;
+   padding: 15px 0px;
+}
+
+.navbar_list>li>a{color: black; transition: .3s}
+.navbar_list>li>a:hover{color:rgb(108, 108, 108); transition: .3s}
+
+.navbar_logo>li>a>img{height: 40px; width: 46px; object-fit: cover;}
