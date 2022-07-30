@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/reactrecipe/static/css/main.6fe7fc5c.css",
-    "main.js": "/reactrecipe/static/js/main.e84fa5be.js",
-    "static/js/787.a2d3872a.chunk.js": "/reactrecipe/static/js/787.a2d3872a.chunk.js",
-    "static/media/logo2.jpg": "/reactrecipe/static/media/logo2.cbad05f7396190d5cb17.jpg",
-    "static/media/logo.jpeg": "/reactrecipe/static/media/logo.b0bf9a5dcd580c317779.jpeg",
-    "index.html": "/reactrecipe/index.html",
-    "main.6fe7fc5c.css.map": "/reactrecipe/static/css/main.6fe7fc5c.css.map",
-    "main.e84fa5be.js.map": "/reactrecipe/static/js/main.e84fa5be.js.map",
-    "787.a2d3872a.chunk.js.map": "/reactrecipe/static/js/787.a2d3872a.chunk.js.map"
+    "main.css": "/ReactRecipe/static/css/main.6fe7fc5c.css",
+    "main.js": "/ReactRecipe/static/js/main.367b0a48.js",
+    "static/js/787.a2d3872a.chunk.js": "/ReactRecipe/static/js/787.a2d3872a.chunk.js",
+    "static/media/logo2.jpg": "/ReactRecipe/static/media/logo2.cbad05f7396190d5cb17.jpg",
+    "static/media/logo.jpeg": "/ReactRecipe/static/media/logo.b0bf9a5dcd580c317779.jpeg",
+    "index.html": "/ReactRecipe/index.html",
+    "main.6fe7fc5c.css.map": "/ReactRecipe/static/css/main.6fe7fc5c.css.map",
+    "main.367b0a48.js.map": "/ReactRecipe/static/js/main.367b0a48.js.map",
+    "787.a2d3872a.chunk.js.map": "/ReactRecipe/static/js/787.a2d3872a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6fe7fc5c.css",
-    "static/js/main.e84fa5be.js"
+    "static/js/main.367b0a48.js"
   ]
 }
