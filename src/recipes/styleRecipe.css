@@ -2,42 +2,43 @@ img {
    height: 150px;
    object-fit: cover;
    border-radius: 10px;
-   margin-right: 20px;
+   width: 150px;
 }
-
-h1 {
-   font-size: 28px;
-}
+.Recipe_title{line-height: 24px;}
+.Recipe_title>h1>a{color:black; font-size: 28px;line-height: 1px;}
 
 li {
    text-decoration: none;
    list-style-type: none;
 }
 
-.container_Recipe_info {
-   padding: 0px 20px;
-   display: flex;
-}
 
+a{text-decoration: none;}
 
-
-.container {
-   width: 1320px;
-   margin-right: auto;
-   margin-left: auto;
-}
-
+.Recipes{max-width: 1000px; margin-left: auto; margin-right: auto;
+   background-color: white;}
 .Recipe {
    display: flex;
-   padding: 10px;
-   width:100%;
+   padding: 0px 10px;
+   max-width: 1000px;
    background-color: white;
+   height: 180px;
+   align-items: center;
 }
-.Recipe_info {display: block;}
-.Recipe_calories{font-size: 12px; position: relative; margin-top: 28px;}
+.Recipe_info {display:unset;}
+.Recipe_calories>p{font-size: 12px; position: static; color:rgb(108, 108, 108)}
 .Recipe_type>h3>a{color:rgb(13, 177, 4); font-size: 20px;}
-.Recipe_button>button{width: 120px; margin-top: 5px; background-color: white; border:rgb(230, 230, 240) solid 1px; padding: 0; font-size: 12px; border-radius: 3px;}
-.Recipe_button:hover {text-decoration:dashed;}
+.Recipe_button>button{width: 115px; margin-top: 5px; background-color: white; color: rgb(158, 158, 158); border:white solid 1px; padding: 0; font-size: 12px; cursor: pointer;}
+.Recipe_button>button:hover {color: black;}
+
+.Recipe_background_image {
+   margin-right: 20px;
+   width: 150px;
+   height: 150px;
+   background-color: rgb(240,240,240);
+   border-radius: 10px;
+}
+
 .Recipe_ingredients
 {
    /* display: none; */
@@ -45,3 +46,33 @@ li {
    font-size: 14px;
    padding-right: 10px;
 }
+
+.container_Recipe_info {
+   padding: 0px 10px;
+   display: flex;
+}
+
+@media (max-width:1024px) {
+   .Recipes{max-width: 880px;}
+}
+
+@media (max-width:880px) {
+   .Recipes{max-width: 650px;}
+   .Recipe
+   .Recipe_ingredients{font-size: 11px;}
+   .Recipe_title>h1>a{font-size: 20px;}
+   .Recipe_type>h3>a {color: rgb(13, 177, 4);font-size: 16px;}
+}
+
+@media (max-width:650px) {
+   .Recipe_ingredients>p{font-size: 9px;}
+      .Recipe_type>h3>a {
+         color: rgb(13, 177, 4);
+         font-size: 14px;
+      }
+    .Recipe_title>h1>a{font-size: 20px;}
+    .Recipe_title{line-height: 17px;}
+   .Recipe_calories>p{font-size: 8px;}
+}
+
+.Recipe_ingredients_hide, .Recipe_calories_hide{display: none;}
