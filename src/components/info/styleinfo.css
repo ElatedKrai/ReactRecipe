@@ -1,0 +1,16 @@
+.info{height: 150px; margin-top: 50px;}
+.title, .subtitle{text-align: center;}
+.title>h1{font-size: 52px;}
+.title{margin-top: 16px;}
+
+
+
+
+.image_logo{text-align: center;}
+
+/* adaptive */
+@media (max-width: 600px) {
+   .title>h1{font-size: 36px;}
+   .subtitle>h3{font-size: 18px;}
+   .subtitle{margin-top: 20px;}
+}
